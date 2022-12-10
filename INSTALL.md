@@ -28,10 +28,6 @@ b. Install PyTorch and torchvision following the [official instructions](https:/
 conda install pytorch=1.3.1 torchvision cudatoolkit=10.0 -c pytorch -y
 ```
 
-```
-pip install -r requirements.txt
-```
-
 c. Clone the DetFusion repository.
 
 ```shell
@@ -48,6 +44,7 @@ bash compile.sh
 e. Install DetFusion (other dependencies will be installed automatically).
 
 ```shell
+pip install -r requirements.txt
 python setup.py develop
 # or "pip install -e ."
 ```
