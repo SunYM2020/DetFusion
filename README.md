@@ -1,4 +1,4 @@
-### DetFusion
+# DetFusion
 
 This is the official repository for "DetFusion: A Detection-driven Infrared and Visible Image Fusion Network" (ACM MM 2022). The repo is based on [mmdetection](https://github.com/open-mmlab/mmdetection). This paper can be downloaded in the [link](https://dl.acm.org/doi/abs/10.1145/3503161.3547902).
 
@@ -14,7 +14,7 @@ Please refer to [INSTALL.md](INSTALL.md) for installation.
 
 ## Getting Started
 
-## Inference with trained models
+### Inference with trained models
 
 You can use the following commands to get the fused images.
 
@@ -22,7 +22,7 @@ You can use the following commands to get the fused images.
 python tools/test.py
 ```
 
-## Train a model
+### Train a model
 
 You can use the following commands to train the DetFusion.
 
@@ -30,7 +30,7 @@ You can use the following commands to train the DetFusion.
 python tools/train.py configs/DetFusion.py
 ```
 
-## Model 
+### Model 
 
 BaiduYun download link can be found [here](https://pan.baidu.com/s/1Ai_7dzT9rY4gJ3rWstE3ug?pwd=xg1g) with extracting code **xg1g**.
 
